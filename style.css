@@ -1,0 +1,59 @@
+*{
+    text-align: center;
+}
+
+
+h1{
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }
+
+.btn{
+    height:200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 10px solid black;
+    margin: 2.5rem;
+}
+
+.btn_cont{
+    display: flex;
+    justify-content: center;
+}
+
+.green{
+    background-color: rgb(176, 255, 58);
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: rgb(0, 183, 255);
+}
+
+.flash{
+    background-color: rgba(95, 72, 72, 0.41);
+}
+
+.user_flash{
+    background-color: rgb(0, 0, 0);
+}
+
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
